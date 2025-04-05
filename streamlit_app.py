@@ -59,7 +59,7 @@ def get_response(prompt):
 # Process and display response if there's input
 if user_input:
     # Validate if the input is health-related
-    if is_health_related(user_input):
+ #   if is_health_related(user_input):
         # Append user's message
         st.session_state.messages.append({"role": "user", "content": user_input})
         with st.chat_message("user"):
