@@ -72,9 +72,10 @@ if user_input:
         
         with st.chat_message("assistant"):
             st.markdown(assistant_response)
-  else:
-        # Reject off-topic queries
-        rejection_message = "This chat is strictly about health tips. Please ask health-related questions."
-        st.session_state.messages.append({"role": "assistant", "content": rejection_message})
-        with st.chat_message("assistant"):
-            st.markdown(rejection_message)
+  #    else:
+else
+# Reject off-topic queries
+  rejection_message = "This chat is strictly about health tips. Please ask health-related questions."
+  st.session_state.messages.append({"role": "assistant", "content": rejection_message})
+  with st.chat_message("assistant"):
+      st.markdown(rejection_message)
