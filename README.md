@@ -18,7 +18,7 @@ streamlit run insurance_streamlit_app.py
 
 👉 Or try on [Streamlit Cloud](https://streamlit.io/cloud) *(if deployed)*  
 
-![App Screenshot](docs/screenshot.png) <!-- Replace with actual screenshot -->
+<img width="1355" height="837" alt="image" src="https://github.com/user-attachments/assets/c5c9564c-dc4c-4238-ab90-ae30c2e02995" />
 
 ---
 
@@ -30,31 +30,6 @@ streamlit run insurance_streamlit_app.py
 ✅ Sidebar with **About & Disclaimer**  
 ✅ Clean **gradient background & modern UI**  
 ✅ Powered by **OpenAI GPT** for reliable responses  
-
----
-
-## 📦 Installation
-
-Clone this repository and install dependencies:
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/insurance-advisor.git
-cd insurance-advisor
-
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-Create a **`.streamlit/secrets.toml`** file with your OpenAI API key:
-
-```toml
-OPENAI_API_KEY = "your_api_key_here"
-```
 
 ---
 
@@ -73,10 +48,11 @@ Then open your browser at **`http://localhost:8501`**.
 ## 🖼️ Screenshots
 
 ### 💬 Chat Interface
-![Chat Screenshot](docs/chat_example.png)
+<img width="1535" height="829" alt="image" src="https://github.com/user-attachments/assets/9495eede-a379-4c86-bd38-5c5da2e29697" />
 
 ### 📑 Sidebar
-![Sidebar Screenshot](docs/sidebar_example.png)
+<img width="383" height="895" alt="image" src="https://github.com/user-attachments/assets/69d59c5e-b808-4213-b2c4-75b3ed739a47" />
+
 
 ---
 
@@ -102,12 +78,6 @@ Contributions are welcome!
 2. Create a new branch (`feature/your-feature`)  
 3. Commit changes and push  
 4. Submit a Pull Request 🎉  
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
