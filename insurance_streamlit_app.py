@@ -82,6 +82,9 @@ for message in st.session_state.messages:
     with st.chat_message(role):
         st.markdown(content)
 
+# Collect user input for query
+user_input = st.chat_input("💬 Ask your insurance related question here...")
+
 # Function to validate user input
 def is_insurance_related(query):
     """
@@ -127,9 +130,6 @@ def get_response(prompt):
     # Access the content directly as an attribute
     return response.choices[0].message.content
 
-# Collect user input for query
-user_input = st.chat_input("💬 Ask your insurance related question here...")
-
 # Process and display response if there's input
 if user_input:
     # Validate if the input is insurance-related
@@ -153,4 +153,3 @@ else:
   st.session_state.messages.append({"role": "assistant", "content": rejection_message})
   with st.chat_message("assistant"):
       st.markdown(rejection_message)
-
