@@ -149,7 +149,8 @@ if user_input:
   #    else:
 else:
 # Reject off-topic queries
-  rejection_message = "⚠️ This chat is strictly about **insurance related**. Please rephrase your query."
+  rejection_message = "⚠️ This chat is strictly about **insurance related**. Please ask only insurance related query."
   st.session_state.messages.append({"role": "assistant", "content": rejection_message})
   with st.chat_message("assistant"):
       st.markdown(rejection_message)
+
